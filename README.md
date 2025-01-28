@@ -9,5 +9,5 @@ Este é um projeto simples de lista de tarefas que permite adicionar, marcar com
 - **Deletar Tarefa**: Clique no botão "DELETAR" para remover uma tarefa da lista.
 
 Estrutura do Projeto
-- **index.php: Contém a estrutura HTML da lista de tarefas e a lógica em php com as consultas ao banco de dados.
-- **styles.css: Contém os estilos CSS para a interface.
+- **index.php**: Contém a estrutura HTML da lista de tarefas e a lógica em php com as consultas ao banco de dados.
+- **styles.css**: Contém os estilos CSS para a interface.
