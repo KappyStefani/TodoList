@@ -10,7 +10,7 @@ Este é um projeto simples de lista de tarefas que permite adicionar, marcar com
 - **Cadastro**: Possível fazer cadastro de contas apenas com usuário e senha
 - **Login**: Póssivel logar na conta cadastrada
 - **Tarefas vinculadas** : Tarefas são vinculadas a conta cadastrada, sendo possível serem vistas apenas pelo usuário cadastrado na conta
-- 
+  
 
 Estrutura do Projeto
 - **index.php**: Contém a estrutura HTML da lista de tarefas e a lógica em php com as consultas ao banco de dados.
