@@ -8,13 +8,12 @@ if ($conn->connect_error) {
 
 if (isset($_POST['submit'])) {
     $username = mysqli_real_escape_string($conn, $_POST['username']);
-    $password = $_POST['password']; // Não precisa escapar pois será usado no password_verify
+    $password = $_POST['password'];
 
     $result = mysqli_query($conn, "SELECT * FROM usuarios WHERE username='$username'")
         or die("Erro na consulta: " . mysqli_error($conn));
     $row = mysqli_fetch_assoc($result);
 
-    // Comparação correta da senha
     if ($row && password_verify($password, $row['password'])) {
         $_SESSION['username'] = $row['username'];
         $_SESSION['usuario_id'] = $row['usuario_id'];
